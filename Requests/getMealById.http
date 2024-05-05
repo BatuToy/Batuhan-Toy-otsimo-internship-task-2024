@@ -1,0 +1,5 @@
+@host = http://localhost:8081
+
+// Get meal by id
+
+GET {{host}}/getMeal?id=1.4

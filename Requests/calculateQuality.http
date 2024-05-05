@@ -1,0 +1,10 @@
+@host = http://localhost:8081
+
+POST {{host}}/quality
+Content-Type: application/json 
+
+{
+    "meal_id": 12,
+    "rice": "medium",
+    "chicken": "medium"
+}

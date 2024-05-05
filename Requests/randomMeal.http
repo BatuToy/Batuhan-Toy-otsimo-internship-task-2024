@@ -1,0 +1,8 @@
+@host = http://localhost:8081
+
+POST {{host}}/random
+Content-Type: application/json
+
+{
+
+}

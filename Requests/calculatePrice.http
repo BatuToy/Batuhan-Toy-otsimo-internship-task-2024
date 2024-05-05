@@ -1,0 +1,10 @@
+
+@hots = http://localhost:8081
+// We can use this to check if the meal is vegan or vegetarian
+
+POST {{hots}}/price
+Content-Type: application/json
+
+{   
+    "meal_id": 2
+}    
